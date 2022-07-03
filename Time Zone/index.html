@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Clock </title>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+
+    <body>
+        <div class="clock-title clock"> Clock </div>
+        <div class="border"></div>
+
+        <div class="div2">
+            <span class="scountry"> Select Country :  </span>
+            <form method="post" name="f1">
+                <select id="tz" name="tz" class="textfiled" onChange="display_timezone()"></select>
+            </form>
+            <div class="timezone" id="ct"> Time Zone</div>
+        </div>
+
+        <div class="button">
+            <button onclick="refresh_all()" class="btn"> Clear </bsutton>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
+
+
