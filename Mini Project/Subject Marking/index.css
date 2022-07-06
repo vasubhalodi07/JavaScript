@@ -1,0 +1,102 @@
+body {
+    background-color: #27c5b6;
+}
+
+.main-div {
+    background-color: #3c3e3d;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(68, 68, 68, 0.6);
+    width: 60%;
+    height: auto;
+}
+    
+.details {
+    color: #27c5b6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #222;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #27c5b6;
+    border-style: hidden;
+    width: 20%;
+    height: auto;
+    margin: 9%;
+    padding: 1%;
+}
+
+.space {
+    margin: 8%;
+}
+
+.space div {
+    padding: 7%;
+}
+
+::placeholder {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.space div input {
+    color: white;
+    font-weight: 600;
+}
+
+.maths {
+    border: none;
+    color: white;
+    background-color: #3c3e3d;
+    border-bottom: 1px solid #27c5b6;
+    outline: none;
+}
+
+.science {
+    border: none;
+    color: white;
+    background-color: #3c3e3d;
+    border-bottom: 1px solid #27c5b6;
+    outline: none;
+}
+
+.physics {
+    border: none;
+    color: white;
+    background-color:#3c3e3d;
+    border-bottom: 1px solid #27c5b6;
+    outline: none;
+}
+
+.chemistry {
+    border: none;
+    color: white;
+    background-color: #3c3e3d;
+    border-bottom: 1px solid #27c5b6;
+    outline: none; 
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    background-color: #3c3e3d;
+    color: #27c5b6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#print_data {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}

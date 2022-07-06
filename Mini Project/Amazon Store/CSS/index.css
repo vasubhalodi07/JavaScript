@@ -1,0 +1,211 @@
+/* body { 
+    background-image: url("../Image/image-background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed; 
+} */
+
+table {
+    border: 0.1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 0.1px solid black;
+}
+
+.heading {
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.image {
+    height: 60%;
+    width: 60%;
+}
+
+.bold {
+    font-weight: bold;
+    width: 8.33%;
+}
+
+.display-box1 {
+    margin-top: -1.5%;
+}
+
+/* Item Name, Category, Unit Price, Quantity, add item btn */
+.item-name {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.category {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.unit-price {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.quntity {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#item-name {
+    width: 100%;
+}
+
+#category {
+    width: 100%;
+}
+
+#unit-price {
+    width: 100%;
+}
+
+#quntity {
+    width: 100%;
+}
+
+.add-item {
+    width: 100%;
+    font-weight: bold;
+    background-color: rgb(79, 190, 172);
+}
+
+/*  available item */
+.div-box1{
+    display: flex;
+}
+
+.avaliable-item-div{
+    width: 40%;
+}
+
+.available-item {
+    background-color: lightblue;
+    text-align: center;
+    border: 0.1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.avaliable-item-div table{
+    width: 100%;
+}
+
+/* selector-item */
+.selector-item-div{
+    width:60%;
+}
+
+.selector {
+    background-color: lightblue;
+    text-align: center;
+    border: 0.1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.selector-item-div table{
+    width:100%;
+}
+
+/* Total Amount */
+.total-amount-table {
+    margin-top: 20%;
+}
+
+.total-amount {
+    width: 72%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.total_amount_table {
+    width: 100%;
+}
+
+#btn-select {
+    width: 50%;
+}
+    
+/* Sale Area */
+.sales-area-table {
+    margin-top: 2%;
+}
+
+.title-sales {
+    background-color: lightblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item-name-sales {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#item-name-sales {
+    width: 100%;
+}
+
+.category-sales {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#category-sales {
+    width: 100%;
+}
+
+.unit-price-sales {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#unit-price-sales {
+    width: 100%;
+}
+
+.quantity-sales {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#quantity-sales {
+    width: 100%;
+}
+
+.add-to-bill {
+    width: 100%;
+    padding: 26%;
+    font-weight: bold;
+    background-color: rgb(79, 190, 172);
+}
+
+.discount-sales {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#discount-sales {
+    width: 100%;
+}
